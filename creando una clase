@@ -1,1 +1,31 @@
-asdfsd
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package aprendizaje_programas;
+
+/**
+ *
+ * @author AdanSutro
+ */
+public class Automovil1 {
+    String color="rojo" ;
+    int velocidad=0;
+    
+public void acelerar (int cantidad)
+{
+ velocidad=velocidad + cantidad;   
+}
+
+public void frenar (int cantidad )
+{ 
+ velocidad=velocidad - cantidad;
+}
+
+public int velocimetro ()
+{
+ return velocidad;
+ 
+}
+
+}// fin class
