@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package panelseleccion;
+
+/**
+ *
+ * @author AdanSutro
+ */
+public class Ascensor {
+//atributo 
+int piso=1;
+
+//metodo cambiarpiso 
+public void cambiarpiso(int valor)
+{piso=valor;
+}// fin metodo
+
+//metodo ver piso actual con retorno
+public int verpisoactual()
+{return piso; 
+}// fin metodo
+
+}
